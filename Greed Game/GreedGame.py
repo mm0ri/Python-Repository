@@ -1,4 +1,4 @@
-dice = [2,2,4,6,2]
+dice = [4,4,4,3,3]
 
 def score(dice):
     DICE_DICT = {}
@@ -10,8 +10,16 @@ def score(dice):
 
         if key == 1 and value == 1:
             d_score = d_score + 100
+        elif key == 1 and value == 2:
+            d_score = d_score + 200
         elif key == 1 and value == 3:
             d_score = d_score + 1000
+        elif key == 1 and value == 4:
+            d_score = d_score + 1100
+        elif key == 1 and value == 5:
+            d_score = d_score + 1200
+        elif key == 1 and value == 6:
+            d_score = 2000
 
         if key == 2 and value == 3:
             d_score = d_score + 200
@@ -24,13 +32,21 @@ def score(dice):
 
         if key == 5 and value == 1:
             d_score = d_score + 50
+        elif key == 5 and value == 2:
+            d_score = d_score + 100
         elif key == 5 and value == 3:
             d_score = d_score + 500
+        elif key == 5 and value == 4:
+            d_score = d_score + 550
+        elif key == 5 and value == 5:
+            d_score = d_score + 600
+        elif key == 5 and value == 6:
+            d_score = 1000
 
         if key == 6 and value == 3:
             d_score = d_score + 600
 
-    #print(DICE_DICT, d_score)
+    print(DICE_DICT, d_score)
     return d_score
 
 score(dice)
