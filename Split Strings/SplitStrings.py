@@ -1,13 +1,15 @@
 s = 'abcdef'
-res_list = []
 
 def solution(s):
     i = 0
-    first_pos = 0 
+    first_pos = 0
+    res_list = []
     res_len = len(s)
 
+    if (len(s) % 2) != 0:
+            s = s + '_'
+
     while i < res_len:
-        if (len(s) % 2) == 0:
             second_pos = first_pos + 2
             s_buff = s[first_pos:second_pos]
             res_list.append(s_buff)
@@ -15,7 +17,7 @@ def solution(s):
             first_pos = first_pos + 2
             second_pos = second_pos + 2
             i = i + 2
-            print(res_list)
-        else:
-            None
+
+    return res_list
+
 solution(s)
