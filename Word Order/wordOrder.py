@@ -1,4 +1,4 @@
-sentence = 'is2 Thi1s T4est 3a'
+sentence = ''
 
 def order(sentence):
     s_buff = sentence.split(' ')
@@ -14,5 +14,11 @@ def order(sentence):
                 res_list.pop(word_pos)
                 res_list.insert(word_pos,element)
 
+    if type(res_list[0]) == int:
+        result = ''
+        return result
+    else:
+        result = ' '.join(res_list)
+        return result
 
 order(sentence)
