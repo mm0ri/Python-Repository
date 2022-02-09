@@ -2,7 +2,7 @@ from tkinter.messagebox import NO
 
 
 class Car():
-    carName = None
+    carName = None 
     carPrice = None
     maxSpeed = None
     color = None
@@ -12,5 +12,9 @@ class Ford(Car):
     carPrice = str(100) + '$'
     maxSpeed = str(120) + ' km'
     color = 'Black'
+
+    def ShowInfo():
+        print(carName, carPrice, maxSpeed, color)
+
 obj = Ford()
-print(obj.maxSpeed)
+obj.ShowInfo()
