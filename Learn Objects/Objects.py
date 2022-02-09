@@ -1,11 +1,16 @@
+from tkinter.messagebox import NO
+
+
 class Car():
-    Engine = 1
-    Wheels = 'yes'
+    carName = None
+    carPrice = None
+    maxSpeed = None
+    color = None
 
-    def Eng_Start(self, Engine):
-        if Engine is 1:
-            print('Engine is started')
-
-    
-obj = Car()
-obj.Eng_Start(1)
+class Ford(Car):
+    carName = 'Fiesta'
+    carPrice = str(100) + '$'
+    maxSpeed = str(120) + ' km'
+    color = 'Black'
+obj = Ford()
+print(obj.maxSpeed)
