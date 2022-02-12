@@ -8,13 +8,11 @@ class Car():
     color = None
 
 class Ford(Car):
-    carName = 'Fiesta'
+    carName = 'ModelT'
     carPrice = str(100) + '$'
     maxSpeed = str(120) + ' km'
     color = 'Black'
-
-    def ShowInfo():
-        print(carName, carPrice, maxSpeed, color)
+    
 
 obj = Ford()
-obj.ShowInfo()
+#obj.ShowInfo()
