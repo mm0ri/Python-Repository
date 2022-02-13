@@ -13,6 +13,7 @@ Progress table of projects from codewars web-site:
 | Morse Decoder | [push](https://www.codewars.com/kata/54b724efac3d5402db00065e) | Completed |
 | Move Zeros | [push](https://www.codewars.com/kata/52597aa56021e91c93000cb0) | Completed |
 | Parity Outliner | [push](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | Completed |
+| RGB to HEX | [push](https://www.codewars.com/kata/513e08acc600c94f01000001/train/python) | In progress |
 | Roman Decoder | [push](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) | In progress |
 | Snake Case Code | [push](https://www.codewars.com/kata/529b418d533b76924600085d) | Completed |
 | Spinning Words | [push](https://www.codewars.com/kata/5264d2b162488dc400000001) | Completed |
