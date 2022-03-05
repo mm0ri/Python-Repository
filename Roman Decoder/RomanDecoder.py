@@ -1,3 +1,4 @@
+n = 2
 def solution(n):
 
     resList = []
@@ -42,4 +43,7 @@ def solution(n):
             resList.append(ROMAN_CODE[1])
 
     result = "".join(resList)
+    print(result)
     return result
+
+solution(n)
