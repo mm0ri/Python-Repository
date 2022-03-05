@@ -15,7 +15,7 @@ Progress table of projects from codewars web-site:
 | Parity Outliner | [push](https://www.codewars.com/kata/5526fc09a1bbd946250002dc) | Completed |
 | Parse Int | [push](https://www.codewars.com/kata/525c7c5ab6aecef16e0001a5/train/python) | Incompleted |
 | RGB to HEX | [push](https://www.codewars.com/kata/513e08acc600c94f01000001/train/python) | Completed |
-| Roman Decoder | [push](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) | In progress |
+| Roman Decoder | [push](https://www.codewars.com/kata/51b62bf6a9c58071c600001b) | Incompleted |
 | Snake Case Code | [push](https://www.codewars.com/kata/529b418d533b76924600085d) | Completed |
 | Spinning Words | [push](https://www.codewars.com/kata/5264d2b162488dc400000001) | Completed |
 | Split Strings | [push](https://www.codewars.com/kata/515de9ae9dcfc28eb6000001) | Completed |
