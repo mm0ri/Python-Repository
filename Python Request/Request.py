@@ -1,7 +1,7 @@
 import requests
 
-name = input()
-url = 'https://www.codewars.com/api/v1/users/' + name
+name = 'mm0ri'
+url = 'https://github.com/' + name
 response = requests.get(url)
 
 print(response.json())
