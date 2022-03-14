@@ -29,7 +29,8 @@ ____
 Table which contains my other projects. Almost all of them only for studying python technologies and other different usefull modules.
 | Project name | Git-Link | Project status |
 |----------------|:---------:|----------------:|
-| Python Request |[push](https://github.com/mm0ri/Python-Repository/tree/main/Python%20Request)| Studying |
+| Python Request | [push](https://github.com/mm0ri/Python-Repository/tree/main/Python%20Request) | Studying |
 | Learn Django | [push](https://github.com/mm0ri/Python-Repository/tree/main/Learn%20Django) | Studying |
-| Learn Objects |[push](https://github.com/mm0ri/Python-Repository/tree/main/Learn%20Objects)| Studying |
-| Erlang Form |[push](https://github.com/mm0ri/Python-Repository/tree/main/Erlang%20Form)| Completed |
+| Learn Objects | [push](https://github.com/mm0ri/Python-Repository/tree/main/Learn%20Objects) | Studying |
+| Erlang Form | [push](https://github.com/mm0ri/Python-Repository/tree/main/Erlang%20Form) | Completed |
+| FastAPI Project | [push](https://github.com/mm0ri/Python-Repository/tree/main/FastAPI%20Project) | Studying |
