@@ -7,11 +7,8 @@ app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
+templates = Jinja2Templates(directory="Templates")
 
-templates = Jinja2Templates(directory="templates")
-
-
-#@app.get("/items/{name}&{message}", response_class=HTMLResponse)
-@app.get("/items/", response_class=HTMLResponse)
-async def read_item(request: Request, name: str = 'Rekruto', message: str = 'Давай дружить'):
-    return templates.TemplateResponse("item.html", {"request": request, "name": name, "message": message})
+@app.get("/", response_class=HTMLResponse)
+async def read_item(request: Request, name: str = '{name}', message: str = '{message}'):
+    return templates.TemplateResponse("index.html", {"request": request, "name": name, "message": message})
