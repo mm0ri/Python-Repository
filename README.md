@@ -5,7 +5,7 @@ ____
 # Information about my projects and their directories in this repository:
 Progress table of projects from codewars web-site:
 | Project name | Source-Link | Git-Link | Project status |
-|----------------|:---------:|----------------:|
+|----------------|:---------:|:---------:|----------------:|
 | Build Tower | [push](https://www.codewars.com/kata/576757b1df89ecf5bd00073b) | [push](https://github.com/mm0ri/Python-Repository/tree/main/Build%20Tower) |Completed |
 | Detect Pangram | [push](https://www.codewars.com/kata/545cedaa9943f7fe7b000048) | [push](https://github.com/mm0ri/Python-Repository/tree/main/Detect%20Pangram) | Completed |
 | Disemvowel String | [push](https://www.codewars.com/kata/52fba66badcd10859f00097e) | [push](https://github.com/mm0ri/Python-Repository/tree/main/Disemvowel%20String) | Completed |
