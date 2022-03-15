@@ -1,3 +1,6 @@
-import django
+from django.http import HttpResponse
 
-print(django.get_version())
+def index(request):
+    return HttpResponse('Hello from Django')
+
+index()
