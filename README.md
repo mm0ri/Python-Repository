@@ -33,5 +33,6 @@ Table which contains my other projects. Almost all of them only for studying pyt
 | S Erlang Form | [push](https://github.com/mm0ri/Python-Repository/tree/main/Erlang%20Form) | Completed |
 | S FastAPI Project | [push](https://github.com/mm0ri/Python-Repository/tree/main/FastAPI%20Project) | Studying |
 | S Learn Django | [push](https://github.com/mm0ri/Python-Repository/tree/main/Learn%20Django) | Studying |
+| S Word OOP | [push](https://github.com/mm0ri/Python-Repository/tree/main/Word%20OOP) | Studying |
 | S Own AutoTest | [push](https://github.com/mm0ri/Python-Repository/tree/main/S%20Own%20AutoTest) | Completed |
 | S Python Request | [push](https://github.com/mm0ri/Python-Repository/tree/main/Python%20Request) | Studying |
