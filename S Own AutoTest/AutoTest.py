@@ -36,12 +36,12 @@ def main_proc():
 # Цикл проверки достоверности
 
 def proc_test(res_list):
-    buff_list = [[1, 5], [1, 5, 25], [1, 73]] # Список с правильными ответами
+    buff_list = [[1, 5], [1, 5, 25], [1, 72]] # Список с правильными ответами
     for elem in range(len(res_list)):
         if res_list[elem] == buff_list[elem]:
             print('Right answer:', buff_list[elem], 'Passed')
         else:
-            print('Right answer:', buff_list[elem], 'Not Passed', 'Your answer:', res_list[elem])
+            print('Right answer:', res_list[elem], 'Not Passed', 'Your answer:', buff_list[elem])
 
 # Запуск программы в целом
 
