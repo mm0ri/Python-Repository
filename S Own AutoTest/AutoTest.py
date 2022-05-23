@@ -4,14 +4,15 @@ import subprocess as sb
 
 def main_proc():
 
-    test_list = [10, 100, 73] # Тестовые значения, может быть сколько угодно.
+    test_list = [10, 'a', 72] # Тестовые значения, может быть сколько угодно.
     buff_list = []
     res_list = []
     re_list = []
 
     for elem in test_list:
-        elem = str(elem)
-        buff_list.append(sb.check_output(['python3', 'MainProg.py', elem]))
+            elem = str(elem)
+            if elem.isdigit():
+                buff_list.append(sb.check_output(['python3', 'MainProg.py', elem]))
 
     # Цикл отделения лишних данных от числовых данных
 
@@ -36,7 +37,7 @@ def main_proc():
 # Цикл проверки достоверности
 
 def proc_test(res_list):
-    buff_list = [[1, 5], [1, 5, 25], [1, 72]] # Список с правильными ответами
+    buff_list = [[1, 5], [1, 72]] # Список с правильными ответами [1, 5], [1, 5, 25], [1, 72]
     for elem in range(len(res_list)):
         if res_list[elem] == buff_list[elem]:
             print('Right answer:', buff_list[elem], 'Passed')
